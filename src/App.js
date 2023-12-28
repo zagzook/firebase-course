@@ -156,7 +156,7 @@ function App() {
           </div>
         ))}
       </div>
-      <div className='row align-items-center'>
+      <div className='row align-items-center mb-5'>
         <div className='col align-items-center input-group'>
           <input type='file' className='form-control' onChange={(e) => setFileUpload(e.target.files[0])} />
           <button className='btn btn-success' onClick={uploadFile}>
